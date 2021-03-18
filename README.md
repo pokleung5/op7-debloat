@@ -6,7 +6,8 @@ pm list package -s | sort
 # list all running app
 ps -A | grep [.].*[.]
 ```
-Thinking:
+
+## Thinking:
 1. Non running app is safe to uninstall 
 2. Do not touch qualcomm app
 3. `ps -A` can also list the user running id
