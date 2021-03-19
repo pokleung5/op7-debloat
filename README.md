@@ -14,14 +14,14 @@ pm enable <package>
 cmd package install-existing <package>
 ```
 
-## Thinking:
+## Thinking
 1. Non running app is safe to uninstall 
 2. Do not touch qualcomm app
 3. `ps -A` can also list the user running id
 4. Unbrick tools works: https://forum.xda-developers.com/t/op7-oos-10-3-8-gm57aa-0-10gm57ba-unbrick-tool-to-restore-your-device-to-oxygenos.3954325/
 
-## List (Please think before running any script)
 
+## experience
 Keep:
 ```
 com.google.android.documentsui
@@ -38,7 +38,7 @@ com.tencent.soter.soterserver
 com.google.android.setupwizard
 ```
 
-
+## List (Please think before running any script)
 ```
 pm uninstall --user 0 cn.oneplus.nvbackup
 pm uninstall --user 0 cn.oneplus.oemtcma
