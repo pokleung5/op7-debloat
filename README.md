@@ -51,7 +51,7 @@ pm uninstall --user 0 com.oneplus.screenrecord.black.overlay
 pm uninstall --user 0 com.oneplus.screenrecord.white.overlay
 pm uninstall --user 0 com.oneplus.twspods
 pm uninstall --user 0 net.oneplus.commonlogtool
-pm uninstall --user 0 net.oneplus.launcher
+pm uninstall --user 0 net.oneplus.launcher  ## needed for Gesture like home / recent app
 pm uninstall --user 0 net.oneplus.launcher.black.overlay
 pm uninstall --user 0 net.oneplus.launcher.white.overlay
 pm uninstall --user 0 net.oneplus.odm
@@ -91,7 +91,7 @@ pm uninstall --user 0 com.google.android.apps.restore
 pm uninstall --user 0 com.google.android.apps.tachyon
 pm uninstall --user 0 com.google.android.apps.turbo
 pm uninstall --user 0 com.google.android.as
-pm uninstall --user 0 com.google.android.documentsui
+# pm uninstall --user 0 com.google.android.documentsui ## needed for file API
 pm uninstall --user 0 com.google.android.feedback
 pm uninstall --user 0 com.google.android.gms.location.history
 pm uninstall --user 0 com.google.android.googlequicksearchbox
